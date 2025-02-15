@@ -9,11 +9,11 @@
 
 ### **Windows**
 ```powershell
-winget install astral.sh.uv
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
-### **Mac**
+### **MacOS and Linux**
 ```
-brew install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```
 
